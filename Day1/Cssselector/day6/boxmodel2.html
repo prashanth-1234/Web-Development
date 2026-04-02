@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: bisque;
+      font-family:Arial, Helvetica, sans-serif;
+      /* display: flex;   side-by-side format in row format */
+      display: flex;
+    justify-content: center;
+      align-items: center;
+    }
+
+    .product{
+      background-color: aquamarine;
+      width: 300px;
+      border: 1px solid brown;
+      margin: 30px;
+      padding: 25px;
+      text-align: center;
+      border-radius: 15px;
+      box-shadow: 0 5px 10px black;
+    }
+    .product img{
+      object-fit: cover;
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+    }
+
+    .product button{
+      background-color: orange;
+      border: none;
+      padding: 15px;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+    }
+
+    button:hover{
+      background-color: darkorange;
+      transform: scale(1.2s);
+    }
+  </style>
+</head>
+<body>
+  <div class="product">
+    <img src="https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg">
+    <h1>Tshirt</h1>
+    <p><del>$100</del> $50</p>
+    <button>Add to cart</button>
+  </div>
+  
+  <div class="product">
+    <img src="https://images.pexels.com/photos/33055599/pexels-photo-33055599.jpeg">
+    <h1>Pant</h1>
+    <p>$80</p>
+    <button>Add to cart</button>
+  </div>
+  
+  <div class="product">
+    <img src="https://images.pexels.com/photos/30642931/pexels-photo-30642931.jpeg">
+    <h1>Shoes</h1>
+    <p>$100</p>
+    <button>Add to cart</button>
+  </div>
+</body>
+</html>
